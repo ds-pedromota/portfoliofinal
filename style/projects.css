@@ -20,7 +20,7 @@ nav a{
 
 .menu{
     text-align: center;
-    word-spacing: 12vh;
+    word-spacing: 6vh;
     padding-top: 3vh;
     animation: quica ease 1.5s;
 }
@@ -46,6 +46,7 @@ article h1{
     display: inline-block;
 }
 .boxMaster {
+    margin-left: 8px;
     gap: 15px;
     display: flex;
     flex-flow: wrap;
@@ -64,11 +65,11 @@ article h1{
 
 }
 
-.contSenaf:hover, .contSenaf:active img.senaf{
+.contSenaf:hover img.senaf{
     display: none;
 }
 
-.contSenaf:hover, .contSenaf:active img.senafHover{
+.contSenaf:hover img.senafHover{
     display: inherit;
     border-radius: 10px;    
 }
@@ -87,11 +88,11 @@ article h1{
     height: 250px;
 }
 
-.contUnlock:hover, .contUnlock:active img.unlock{
+.contUnlock:hover img.unlock{
     display: none;
 }
 
-.contUnlock:hover, .contUnlock:active img.unlockHover{
+.contUnlock:hover img.unlockHover{
     display: inherit;
     border-radius: 10px;    
 }
@@ -108,11 +109,11 @@ article h1{
     display: none;
 }
 
-.contClaudia:hover, .contClaudia:active .claudia{
+.contClaudia:hover img.claudia{
     display: none;
 }
 
-.contClaudia:hover, .contClaudia:active img.claudiaHover{
+.contClaudia:hover img.claudiaHover{
     display: inherit;
     border-radius: 10px;    
 }
