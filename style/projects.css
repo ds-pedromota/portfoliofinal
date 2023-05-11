@@ -64,11 +64,11 @@ article h1{
 
 }
 
-.contSenaf:hover img.senaf{
+.contSenaf:hover .contSenaf:active img.senaf{
     display: none;
 }
 
-.contSenaf:hover img.senafHover{
+.contSenaf:hover .contSenaf:active img.senafHover{
     display: inherit;
     border-radius: 10px;    
 }
@@ -87,11 +87,11 @@ article h1{
     height: 250px;
 }
 
-.contUnlock:hover img.unlock{
+.contUnlock:hover .contUnlock:active img.unlock{
     display: none;
 }
 
-.contUnlock:hover img.unlockHover{
+.contUnlock:hover .contUnlock:active img.unlockHover{
     display: inherit;
     border-radius: 10px;    
 }
@@ -108,11 +108,11 @@ article h1{
     display: none;
 }
 
-.contClaudia:hover img.claudia{
+.contClaudia:hover .contClaudia:active .claudia{
     display: none;
 }
 
-.contClaudia:hover img.claudiaHover{
+.contClaudia:hover .contClaudia:active img.claudiaHover{
     display: inherit;
     border-radius: 10px;    
 }
