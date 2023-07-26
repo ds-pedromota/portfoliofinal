@@ -117,3 +117,7 @@ article h1{
     display: inherit;
     border-radius: 10px;    
 }
+
+.dash{
+    padding-top: 35px;
+}
