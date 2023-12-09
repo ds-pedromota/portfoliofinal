@@ -9,7 +9,13 @@
     <title>JPM</title>
 </head>
 <body>
-    <img class="image" src="./image/Room---Relaxing---Copy@5-1440x820-1-Recuperado.png" alt="">
-    <div><a class="start" href="pages/home.html">Start</a></div>
+    <div class="loader"></div>
+    <script>
+        // Aguarde 1 segundo antes de redirecionar
+        setTimeout(function() {
+            // Redirecione para a página desejada
+            window.location.href = "pages/home.html";
+        }, 1000); // 1000 milissegundos = 1 segundo
+    </script>
 </body>
 </html>
